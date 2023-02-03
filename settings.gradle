@@ -1,7 +1,16 @@
+pluginManagement {
+    plugins {
+        id 'java'
+        id 'org.springframework.boot' version "${springBootVersion}"
+        id 'io.spring.dependency-management' version "${springDependencyManagementVersion}"
+    }
+}
+
 rootProject.name = 'GoodsApp'
+
 include 'EKatalogService'
 include 'EKatalogService:ekatalog-service'
-findProject(':EKatalogService:ekatalog-service')?.name = 'ekatalog-service'
 include 'EKatalogService:ekatalog-service-api'
+findProject(':EKatalogService:ekatalog-service')?.name = 'ekatalog-service'
 findProject(':EKatalogService:ekatalog-service-api')?.name = 'ekatalog-service-api'
 
