@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/EKatalogService" />
+            <option value="$PROJECT_DIR$/EKatalogService/ekatalog-service" />
+            <option value="$PROJECT_DIR$/EKatalogService/ekatalog-service-api" />
           </set>
         </option>
       </GradleProjectSettings>
