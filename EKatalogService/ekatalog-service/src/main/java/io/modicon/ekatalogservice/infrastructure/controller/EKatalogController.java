@@ -1,6 +1,8 @@
-package io.modicon.ekatalogservice.controller;
+package io.modicon.ekatalogservice.infrastructure.controller;
 
 import io.modicon.ekatalogservice.api.dto.GetGoodsResponse;
+import io.modicon.ekatalogservice.api.dto.GetPricesResponse;
+import io.modicon.ekatalogservice.api.dto.UrlDto;
 import io.modicon.ekatalogservice.api.operation.EKatalogOperation;
 import io.modicon.ekatalogservice.service.EKatalogService;
 import lombok.RequiredArgsConstructor;
@@ -17,5 +19,10 @@ public class EKatalogController implements EKatalogOperation {
     @Override
     public GetGoodsResponse getGoods(String goodName) {
         return eKatalogService.getGoods(goodName);
+    }
+
+    @Override
+    public GetPricesResponse getPrices(UrlDto goodUrl) {
+        return eKatalogService.getPrices(goodUrl.url());
     }
 }

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/EKatalogService" />
             <option value="$PROJECT_DIR$/EKatalogService/ekatalog-service" />
             <option value="$PROJECT_DIR$/EKatalogService/ekatalog-service-api" />
+            <option value="$PROJECT_DIR$/UtilsModule" />
           </set>
         </option>
       </GradleProjectSettings>

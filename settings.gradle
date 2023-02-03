@@ -13,4 +13,5 @@ include 'EKatalogService:ekatalog-service'
 include 'EKatalogService:ekatalog-service-api'
 findProject(':EKatalogService:ekatalog-service')?.name = 'ekatalog-service'
 findProject(':EKatalogService:ekatalog-service-api')?.name = 'ekatalog-service-api'
+include 'UtilsModule'
 
