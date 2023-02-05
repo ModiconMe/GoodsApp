@@ -10,6 +10,7 @@
         <module name="ekatalog-service.GoodsApp.EKatalogService.ekatalog-service.main" />
         <module name="ekatalog-service-api.GoodsApp.EKatalogService.ekatalog-service-api.main" />
         <module name="GoodsApp.UserService.user-service.main" />
+        <module name="GoodsApp.TelegramBot.main" />
         <module name="GoodsApp.UserService.user-service-api.main" />
       </profile>
     </annotationProcessing>
