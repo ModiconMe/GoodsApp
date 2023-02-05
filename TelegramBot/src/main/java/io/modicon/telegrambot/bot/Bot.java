@@ -25,18 +25,7 @@ public class Bot extends TelegramLongPollingBot {
     private final ObjectMapper objectMapper;
 
     private static final String HELP_MESSAGE = """
-            Я - бот-агрегатор акций, облигаций и курсов валют.
-            Я помогу тебе найти нужные активы по идентефикаторам (Ticker или FIGI).
-            Вот что я умею:
-            /start - начало работы с ботом, регистрация пользователя по его chatId и username;
-            /addstock - добавление актива по его идентификаторам (Ticker или FIGI). Данные вводятся в формате:
-            TICKER1 QUANTITY1 FIGI2 QUANTITY2. Пример: SBER 20 GAZP 31 RU000A0JS6M0 16.
-            /portfolioinfo - просмотр информации о портфеле пользователя.
-            /updatestock - обновление количества актива в портфеле пользователя по FIGI.
-            /deletestock - удаление актива из портфеля пользователя по FIGI.
-            /currency - выводит курс валют на текущую дату.
-            /currency 30.01.2022 - выводит курс валют на указанную дату.
-            /findstock - поиск актива по его Ticker.
+            Я - бот, созданный для поиска товаров, по EKatalog. 
             """;
 
     public Bot(ApplicationConfig applicationConfig, UserService userService, ObjectMapper objectMapper) {
@@ -78,6 +67,7 @@ public class Bot extends TelegramLongPollingBot {
                         executeMessage(chatId, HELP_MESSAGE);
                     }
                     case HELP -> executeMessage(chatId, HELP_MESSAGE);
+                    case FIND_ITEM -> executeMessage(chatId, HELP_MESSAGE);
 
                 }
             } else {

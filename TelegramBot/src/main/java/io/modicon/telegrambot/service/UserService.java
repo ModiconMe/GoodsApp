@@ -15,4 +15,8 @@ public class UserService {
         return userServiceClient.createUser(user);
     }
 
+    public UserDto addItem(String item) {
+        userServiceClient.addItem()
+    }
+
 }

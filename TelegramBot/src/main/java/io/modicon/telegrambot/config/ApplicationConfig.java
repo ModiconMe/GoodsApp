@@ -16,8 +16,6 @@ public class ApplicationConfig {
     private String botName;
     @Value("${telegram.api-key}")
     private String apiKey;
-    @Value("${telegram.bot-owner}")
-    private Long botOwner;
 
     @Bean
     public ObjectMapper objectMapper() {

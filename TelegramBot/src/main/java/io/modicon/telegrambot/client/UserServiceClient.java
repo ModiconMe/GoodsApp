@@ -5,7 +5,7 @@ import io.modicon.userservice.api.operation.UserOperation;
 import org.springframework.cloud.openfeign.FeignClient;
 
 @FeignClient(name = "user-operations",
-        url = "${api.userService.userOperations}",
+        url = "${api.userService-url}",
         configuration = ApplicationConfig.class)
 public interface UserServiceClient extends UserOperation {
 }
