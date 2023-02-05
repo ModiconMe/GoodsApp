@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+api :
+  userService-url: localhost:8001/api/users/
+
+telegram:
+  bot-name: ${botName}
+  api-key: ${botToken}
+  bot-owner: ${botOwner}
