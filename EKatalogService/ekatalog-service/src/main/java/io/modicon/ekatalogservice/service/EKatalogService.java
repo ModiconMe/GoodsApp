@@ -1,10 +1,10 @@
 package io.modicon.ekatalogservice.service;
 
-import io.modicon.ekatalogservice.api.dto.GetGoodsResponse;
-import io.modicon.ekatalogservice.api.dto.GetPricesResponse;
+import io.modicon.ekatalogservice.api.dto.GetItemsResponse;
+import io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse;
 
 public interface EKatalogService {
-    GetGoodsResponse getGoods(String goodName);
+    GetItemsResponse getItems(String itemName);
 
-    GetPricesResponse getPrices(String goodUrl);
+    GetItemAndShopsResponse getPrices(String itemUrl);
 }
