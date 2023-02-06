@@ -21,4 +21,5 @@ findProject(':UserService:user-service-api')?.name = 'user-service-api'
 include 'TelegramBot'
 include 'NotificationService'
 include 'DiscoveryService'
+include 'ApiGW'
 
