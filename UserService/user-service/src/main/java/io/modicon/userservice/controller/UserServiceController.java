@@ -1,8 +1,7 @@
 package io.modicon.userservice.controller;
 
-import io.modicon.userservice.api.dto.AddItemToUser;
-import io.modicon.userservice.api.dto.ItemWithPricesDto;
-import io.modicon.userservice.api.dto.UserDto;
+import io.modicon.ekatalogservice.api.dto.UrlDto;
+import io.modicon.userservice.api.dto.*;
 import io.modicon.userservice.api.operation.UserOperation;
 import io.modicon.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -34,12 +33,22 @@ public class UserServiceController implements UserOperation {
     }
 
     @Override
-    public void deleteItem(String itemUrl, String userId) {
-        userService.deleteUsersItem(itemUrl, userId);
+    public void deleteItem(UrlDto itemUrl, String userId) {
+        userService.deleteUsersItem(itemUrl.url(), userId);
     }
 
     @Override
     public List<ItemWithPricesDto> getUsersItem(String userId) {
         return userService.getUserItems(userId);
+    }
+
+    @Override
+    public UserAndItemsDto getUsersAndItems() {
+        return userService.getUserAndItems();
+    }
+
+    @Override
+    public void saveUserItemPrice(UserItemPriceDto userItemPriceDto) {
+        userService.saveUserItemPriceDto(userItemPriceDto);
     }
 }

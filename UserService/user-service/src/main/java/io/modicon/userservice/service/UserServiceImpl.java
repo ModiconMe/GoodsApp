@@ -1,10 +1,6 @@
 package io.modicon.userservice.service;
 
-import io.modicon.ekatalogservice.api.dto.UrlDto;
-import io.modicon.userservice.api.dto.AddItemToUser;
-import io.modicon.userservice.api.dto.ItemWithPricesDto;
-import io.modicon.userservice.api.dto.UserDto;
-import io.modicon.userservice.client.EKatalogClient;
+import io.modicon.userservice.api.dto.*;
 import io.modicon.userservice.exception.ApiException;
 import io.modicon.userservice.model.ItemEntity;
 import io.modicon.userservice.model.UserEntity;
@@ -83,7 +79,8 @@ public class UserServiceImpl implements UserService {
                 userItemId,
                 user,
                 item,
-                userItem.price
+                userItem.price,
+                false
         ));
 
         return ItemMapper.mapToDto(item);
@@ -124,5 +121,26 @@ public class UserServiceImpl implements UserService {
         List<UserItemPriceEntity> userItems = userItemRepository.findByUser(optionalUser.get());
 
         return userItems.stream().map(ut -> ItemMapper.mapToDto(ut.getItem())).toList();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public UserAndItemsDto getUserAndItems() {
+        List<UserItemPriceEntity> usersItems = userItemRepository.findAll();
+        List<UserItemPriceDto> userItemPriceDtos = usersItems.stream()
+                .map(e -> new UserItemPriceDto(e.getUser().getUserId(), e.getItem().getRef(), e.getPriceToCheck(), e.getHappened()))
+                .toList();
+        return new UserAndItemsDto(userItemPriceDtos);
+    }
+
+    @Override
+    @Transactional
+    public void saveUserItemPriceDto(UserItemPriceDto userItemPriceDto) {
+        UserItemId userItemId = new UserItemId(userItemPriceDto.userId(), userItemPriceDto.itemId());
+        UserItemPriceEntity userItemPriceEntity = userItemRepository.findById(userItemId)
+                .orElseThrow(() -> ApiException.exception(
+                        HttpStatus.NOT_FOUND, "User %s does not followed to item %s", userItemPriceDto.userId(), userItemPriceDto.itemId()));
+        userItemPriceEntity.setHappened(userItemPriceDto.happened());
+        userItemRepository.save(userItemPriceEntity);
     }
 }

@@ -19,4 +19,5 @@ include 'UserService:user-service-api'
 findProject(':UserService:user-service')?.name = 'user-service'
 findProject(':UserService:user-service-api')?.name = 'user-service-api'
 include 'TelegramBot'
+include 'NotificationService'
 

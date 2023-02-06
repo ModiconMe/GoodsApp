@@ -1,8 +1,7 @@
 package io.modicon.userservice.api.operation;
 
-import io.modicon.userservice.api.dto.AddItemToUser;
-import io.modicon.userservice.api.dto.ItemWithPricesDto;
-import io.modicon.userservice.api.dto.UserDto;
+import io.modicon.ekatalogservice.api.dto.UrlDto;
+import io.modicon.userservice.api.dto.*;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,10 +17,16 @@ public interface UserOperation {
     @PostMapping("/items/{userId}")
     ItemWithPricesDto addItem(@RequestBody AddItemToUser userGood, @PathVariable String userId);
 
-    @DeleteMapping("/items/{userId}/{itemUrl}")
-    void deleteItem(@PathVariable String itemUrl, @PathVariable String userId);
+    @DeleteMapping("/items/{userId}")
+    void deleteItem(@RequestBody UrlDto itemUrl, @PathVariable String userId);
 
     @GetMapping("/items/{userId}")
     List<ItemWithPricesDto> getUsersItem(@PathVariable String userId);
+
+    @GetMapping
+    UserAndItemsDto getUsersAndItems();
+
+    @PostMapping("/items")
+    void saveUserItemPrice(@RequestBody UserItemPriceDto userItemPriceDto);
 
 }

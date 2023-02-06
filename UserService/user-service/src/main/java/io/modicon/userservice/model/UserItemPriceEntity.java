@@ -4,10 +4,12 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
@@ -24,4 +26,5 @@ public class UserItemPriceEntity {
     private ItemEntity item;
 
     private BigDecimal priceToCheck;
+    private Boolean happened;
 }

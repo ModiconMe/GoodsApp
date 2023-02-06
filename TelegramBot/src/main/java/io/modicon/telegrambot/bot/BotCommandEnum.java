@@ -9,8 +9,10 @@ public enum BotCommandEnum {
     START("/start"),
     HELP("/help"),
     FIND_ITEM("/find"),
+    FIND_SHOP("/shops"),
     ADD_ITEM("/additem"),
-    DELETE_ITEM("/deleteitem");
+    DELETE_ITEM("/deleteitem"),
+    USER_ITEMS("/myitems");
 
     private final String commandId;
 

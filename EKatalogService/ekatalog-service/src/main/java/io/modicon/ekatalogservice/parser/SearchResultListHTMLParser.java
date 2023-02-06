@@ -32,7 +32,7 @@ public class SearchResultListHTMLParser implements EkatalogHTMLParser<List<ItemD
             String positionRef = SITE_URL + positionLabel.attr("href");
 
             // get image
-            String imageRef = p
+            String imageRef = "https://n-katalog.ru" + p
                     .getElementsByClass("list-img h")
                     .get(0).getElementsByTag("img")
                     .get(0).attr("src");

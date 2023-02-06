@@ -1,8 +1,6 @@
 package io.modicon.userservice.service;
 
-import io.modicon.userservice.api.dto.AddItemToUser;
-import io.modicon.userservice.api.dto.ItemWithPricesDto;
-import io.modicon.userservice.api.dto.UserDto;
+import io.modicon.userservice.api.dto.*;
 
 import java.util.List;
 
@@ -16,4 +14,9 @@ public interface UserService {
     void deleteUsersItem(String itemUrl, String userId);
 
     List<ItemWithPricesDto> getUserItems(String userId);
+
+    UserAndItemsDto getUserAndItems();
+
+    void saveUserItemPriceDto(UserItemPriceDto userItemPriceDto);
+
 }
