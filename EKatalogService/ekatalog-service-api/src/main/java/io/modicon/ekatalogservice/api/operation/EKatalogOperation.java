@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface EKatalogOperation {
-    @GetMapping("{itemName}")
+    @GetMapping("/{itemName}")
     GetItemsResponse getItems(@PathVariable String itemName);
 
     @PostMapping("/prices")

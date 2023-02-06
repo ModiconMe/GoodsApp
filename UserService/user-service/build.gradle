@@ -20,7 +20,8 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
 
     implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${openApiVersion}"
-    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${openFeignVersion}"
+    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${springCloudVersion}"
+    implementation "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:${springCloudVersion}"
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

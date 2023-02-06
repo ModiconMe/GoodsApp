@@ -14,7 +14,8 @@ dependencies {
     implementation project(':EKatalogService:ekatalog-service-api')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${openFeignVersion}"
+    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${springCloudVersion}"
+    implementation "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:${springCloudVersion}"
 
     implementation 'org.telegram:telegrambots:6.4.0'
     implementation 'org.telegram:telegrambotsextensions:6.4.0'

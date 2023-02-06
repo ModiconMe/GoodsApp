@@ -4,8 +4,8 @@ import io.modicon.notificationservice.config.ApplicationConfig;
 import io.modicon.userservice.api.operation.UserOperation;
 import org.springframework.cloud.openfeign.FeignClient;
 
-@FeignClient(name = "user-service",
-        url = "${api.userService-url}",
+@FeignClient(name = "user-operation",
+        value = "user-service",
         configuration = ApplicationConfig.class)
 public interface UserServiceClient extends UserOperation {
 }
