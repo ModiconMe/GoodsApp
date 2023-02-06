@@ -3,15 +3,15 @@ package io.modicon.ekatalogservice.api.operation;
 import io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse;
 import io.modicon.ekatalogservice.api.dto.GetItemsResponse;
 import io.modicon.ekatalogservice.api.dto.UrlDto;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 
 public interface EKatalogOperation {
-    @GetMapping("/{itemName}")
+
+    String route = "api/items";
+
+    @GetMapping(route + "/{itemName}")
     GetItemsResponse getItems(@PathVariable String itemName);
 
-    @PostMapping("/prices")
+    @PostMapping(route + "/prices")
     GetItemAndShopsResponse getItemsWithPrices(@RequestBody UrlDto itemUrl);
 }

@@ -8,25 +8,27 @@ import java.util.List;
 
 public interface UserOperation {
 
-    @PostMapping
+    String route = "api/users";
+
+    @PostMapping(route)
     UserDto createUser(@RequestBody UserDto user);
 
-    @DeleteMapping("{userId}")
+    @DeleteMapping(route + "/{userId}")
     UserDto deleteUser(@PathVariable String userId);
 
-    @PostMapping("/items/{userId}")
+    @PostMapping(route + "/items/{userId}")
     ItemWithPricesDto addItem(@RequestBody AddItemToUser userGood, @PathVariable String userId);
 
-    @DeleteMapping("/items/{userId}")
+    @DeleteMapping(route + "/items/{userId}")
     void deleteItem(@RequestBody UrlDto itemUrl, @PathVariable String userId);
 
-    @GetMapping("/items/{userId}")
+    @GetMapping(route + "/items/{userId}")
     List<ItemWithPricesDto> getUsersItem(@PathVariable String userId);
 
-    @GetMapping
+    @GetMapping(route)
     UserAndItemsDto getUsersAndItems();
 
-    @PostMapping("/items")
+    @PostMapping(route + "/items")
     void saveUserItemPrice(@RequestBody UserItemPriceDto userItemPriceDto);
 
 }

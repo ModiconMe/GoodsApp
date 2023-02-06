@@ -5,13 +5,11 @@ import io.modicon.userservice.api.dto.*;
 import io.modicon.userservice.api.operation.UserOperation;
 import io.modicon.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RequiredArgsConstructor
-@RequestMapping("api/users")
 @RestController
 public class UserServiceController implements UserOperation {
 

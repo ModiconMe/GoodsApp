@@ -7305,3 +7305,456 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 2023-02-06 16:35:25,844 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-02-06 20:01:05,858 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-02-06 20:01:05,895 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserServiceApplication using Java 17.0.5 with PID 8451 (/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main started by saeed in /home/saeed/projects/GoodsApp)
+2023-02-06 20:01:05,896 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-06 20:01:06,556 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 20:01:06,663 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102 ms. Found 3 JPA repository interfaces.
+2023-02-06 20:01:06,865 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=8d1c085f-9b68-31cb-b7b6-73e04cfc39ad
+2023-02-06 20:01:06,913 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'io.modicon.userservice.client.EKatalogClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 20:01:07,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8001 (http)
+2023-02-06 20:01:07,145 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:01:07,146 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-02-06 20:01:07,146 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-06 20:01:07,220 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-02-06 20:01:07,220 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1290 ms
+2023-02-06 20:01:07,343 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 20:01:07,404 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-06 20:01:07,550 WARN org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-06 20:01:07,636 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-06 20:01:07,724 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c56eba5
+2023-02-06 20:01:07,726 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-06 20:01:07,759 INFO org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-06 20:01:08,036 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:01:08,037 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:01:08,543 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,543 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:01:08,544 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,544 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:01:08,544 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,545 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:01:08,545 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,545 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:01:08,546 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,546 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity" не существует, пропускается
+2023-02-06 20:01:08,547 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,547 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity_shops" не существует, пропускается
+2023-02-06 20:01:08,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "shop_entity" не существует, пропускается
+2023-02-06 20:01:08,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_entity" не существует, пропускается
+2023-02-06 20:01:08,549 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:01:08,549 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_item_price_entity" не существует, пропускается
+2023-02-06 20:01:08,601 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 20:01:08,611 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:01:09,038 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 20:01:09,105 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'ekatalog-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-06 20:01:09,981 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-02-06 20:01:10,038 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-06 20:01:10,096 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-02-06 20:01:10,128 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-02-06 20:01:10,132 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-02-06 20:01:10,161 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-02-06 20:01:10,161 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-02-06 20:01:10,161 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-02-06 20:01:10,162 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-02-06 20:01:10,162 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-02-06 20:01:10,162 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-02-06 20:01:10,162 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-02-06 20:01:10,666 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-02-06 20:01:10,670 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-02-06 20:01:10,675 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-06 20:01:10,682 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1675688470681 with initial instances count: 2
+2023-02-06 20:01:10,687 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application USER-SERVICE with eureka with status UP
+2023-02-06 20:01:10,688 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1675688470688, current=UP, previous=STARTING]
+2023-02-06 20:01:10,690 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:01:10,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:01:10,723 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8001 (http) with context path ''
+2023-02-06 20:01:10,724 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8001
+2023-02-06 20:01:10,737 INFO org.springframework.boot.StartupInfoLogger [main] Started UserServiceApplication in 5.154 seconds (process running for 5.731)
+2023-02-06 20:01:10,747 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:02:26,132 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 20:02:26,133 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-4] Initializing Servlet 'dispatcherServlet'
+2023-02-06 20:02:26,134 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-4] Completed initialization in 1 ms
+2023-02-06 20:02:26,586 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8001-exec-7] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.modicon.userservice.controller.UserServiceController
+2023-02-06 20:02:26,684 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8001-exec-7] Init duration for springdoc-openapi is: 173 ms
+2023-02-06 20:02:40,492 INFO io.modicon.userservice.service.UserServiceImpl [http-nio-8001-exec-8] save user UserEntity(userId=100500, username=modicon)
+2023-02-06 20:04:04,027 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-5] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:04:04,037 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-5] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:04:04,139 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-5] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (102ms)
+2023-02-06 20:04:04,143 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-5] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:04:04.136+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:06:10,164 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:09:23,831 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-6] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:09:23,833 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-6] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:09:23,946 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-6] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (112ms)
+2023-02-06 20:09:23,946 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-6] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:09:23.936+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:09:30,139 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:09:30,141 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:09:30,154 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (11ms)
+2023-02-06 20:09:30,155 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:09:30.151+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:09:32,639 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-8] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:09:32,641 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-8] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:09:32,647 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-8] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (5ms)
+2023-02-06 20:09:32,648 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-8] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:09:32.646+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:11:10,165 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:11:33,799 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application USER-SERVICE with eureka with status DOWN
+2023-02-06 20:11:33,800 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1675689093800, current=DOWN, previous=UP]
+2023-02-06 20:11:33,800 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:11:33,809 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:11:33,819 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:11:33,820 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 20:11:33,845 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-06 20:11:33,848 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-06 20:11:33,849 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-02-06 20:11:36,852 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2023-02-06 20:11:36,859 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - deregister  status: 200
+2023-02-06 20:11:36,869 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-02-06 20:11:39,588 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-02-06 20:11:39,604 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserServiceApplication using Java 17.0.5 with PID 11017 (/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main started by saeed in /home/saeed/projects/GoodsApp)
+2023-02-06 20:11:39,605 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-06 20:11:40,225 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 20:11:40,332 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
+2023-02-06 20:11:40,504 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=8d1c085f-9b68-31cb-b7b6-73e04cfc39ad
+2023-02-06 20:11:40,554 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'io.modicon.userservice.client.EKatalogClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 20:11:40,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8001 (http)
+2023-02-06 20:11:40,781 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:11:40,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-02-06 20:11:40,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-06 20:11:40,861 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-02-06 20:11:40,862 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1223 ms
+2023-02-06 20:11:40,984 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 20:11:41,016 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-06 20:11:41,129 WARN org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-06 20:11:41,209 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-06 20:11:41,270 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c4059a
+2023-02-06 20:11:41,272 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-06 20:11:41,293 INFO org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-06 20:11:41,535 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:11:41,535 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:11:41,935 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,935 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:11:41,936 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,936 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:11:41,937 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,937 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:11:41,938 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,938 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:11:41,939 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,940 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity" не существует, пропускается
+2023-02-06 20:11:41,940 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,941 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity_shops" не существует, пропускается
+2023-02-06 20:11:41,941 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,941 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "shop_entity" не существует, пропускается
+2023-02-06 20:11:41,942 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,942 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_entity" не существует, пропускается
+2023-02-06 20:11:41,942 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:11:41,942 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_item_price_entity" не существует, пропускается
+2023-02-06 20:11:42,023 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 20:11:42,038 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:11:42,484 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 20:11:42,552 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'ekatalog-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-06 20:11:42,570 ERROR org.springframework.cloud.openfeign.support.SpringMvcContract [main] Cannot process class: io.modicon.ekatalogservice.api.operation.EKatalogOperation. @RequestMapping annotation is not allowed on @FeignClient interfaces.
+2023-02-06 20:11:42,571 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceController' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/controller/UserServiceController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'EKatalogService' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/EKatalogService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'io.modicon.userservice.client.EKatalogClient': FactoryBean threw exception on object creation
+2023-02-06 20:11:42,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:11:42,580 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 20:11:42,598 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-02-06 20:11:42,606 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-02-06 20:11:42,608 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-02-06 20:11:42,624 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-06 20:11:42,637 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceController' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/controller/UserServiceController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'EKatalogService' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/EKatalogService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'io.modicon.userservice.client.EKatalogClient': FactoryBean threw exception on object creation
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at io.modicon.userservice.UserServiceApplication.main(UserServiceApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'EKatalogService' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/EKatalogService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'io.modicon.userservice.client.EKatalogClient': FactoryBean threw exception on object creation
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'EKatalogService' defined in file [/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main/io/modicon/userservice/service/EKatalogService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'io.modicon.userservice.client.EKatalogClient': FactoryBean threw exception on object creation
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'io.modicon.userservice.client.EKatalogClient': FactoryBean threw exception on object creation
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:154)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:90)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1823)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:259)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 47 common frames omitted
+Caused by: java.lang.IllegalArgumentException: @RequestMapping annotation not allowed on @FeignClient interfaces
+	at org.springframework.cloud.openfeign.support.SpringMvcContract.processAnnotationOnClass(SpringMvcContract.java:182)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:104)
+	at org.springframework.cloud.openfeign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:193)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:65)
+	at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:142)
+	at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:58)
+	at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:50)
+	at feign.Feign$Builder.target(Feign.java:197)
+	at org.springframework.cloud.openfeign.DefaultTargeter.target(DefaultTargeter.java:30)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:398)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:446)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:421)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:148)
+	... 59 common frames omitted
+2023-02-06 20:12:43,047 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-02-06 20:12:43,066 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserServiceApplication using Java 17.0.5 with PID 11411 (/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main started by saeed in /home/saeed/projects/GoodsApp)
+2023-02-06 20:12:43,067 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-06 20:12:43,718 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 20:12:43,846 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 122 ms. Found 3 JPA repository interfaces.
+2023-02-06 20:12:44,005 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=8d1c085f-9b68-31cb-b7b6-73e04cfc39ad
+2023-02-06 20:12:44,052 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'io.modicon.userservice.client.EKatalogClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 20:12:44,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8001 (http)
+2023-02-06 20:12:44,270 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:12:44,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-02-06 20:12:44,271 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-06 20:12:44,338 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-02-06 20:12:44,338 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1238 ms
+2023-02-06 20:12:44,451 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 20:12:44,484 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-06 20:12:44,595 WARN org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-06 20:12:44,676 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-06 20:12:44,750 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c58d7be
+2023-02-06 20:12:44,751 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-06 20:12:44,770 INFO org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-06 20:12:45,015 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:12:45,015 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:12:45,438 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,438 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:12:45,439 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,439 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:12:45,440 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,440 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:12:45,440 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,440 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:12:45,441 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,441 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity" не существует, пропускается
+2023-02-06 20:12:45,442 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,442 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity_shops" не существует, пропускается
+2023-02-06 20:12:45,442 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,442 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "shop_entity" не существует, пропускается
+2023-02-06 20:12:45,443 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,443 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_entity" не существует, пропускается
+2023-02-06 20:12:45,443 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:12:45,443 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_item_price_entity" не существует, пропускается
+2023-02-06 20:12:45,519 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 20:12:45,526 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:12:45,984 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 20:12:46,052 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'ekatalog-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-06 20:12:46,762 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-02-06 20:12:46,793 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-06 20:12:46,837 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-02-06 20:12:46,861 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-02-06 20:12:46,865 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-02-06 20:12:46,880 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-02-06 20:12:46,881 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-02-06 20:12:47,151 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-02-06 20:12:47,153 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-02-06 20:12:47,155 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-06 20:12:47,159 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1675689167159 with initial instances count: 3
+2023-02-06 20:12:47,162 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application USER-SERVICE with eureka with status UP
+2023-02-06 20:12:47,162 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1675689167162, current=UP, previous=STARTING]
+2023-02-06 20:12:47,163 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:12:47,164 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:12:47,177 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8001 (http) with context path ''
+2023-02-06 20:12:47,178 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8001
+2023-02-06 20:12:47,188 INFO org.springframework.boot.StartupInfoLogger [main] Started UserServiceApplication in 4.417 seconds (process running for 4.923)
+2023-02-06 20:12:47,195 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:12:56,481 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 20:12:56,481 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-06 20:12:56,482 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-1] Completed initialization in 1 ms
+2023-02-06 20:12:56,914 WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer [http-nio-8001-exec-6] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.modicon.userservice.controller.UserServiceController
+2023-02-06 20:12:57,019 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8001-exec-6] Init duration for springdoc-openapi is: 172 ms
+2023-02-06 20:13:15,036 INFO io.modicon.userservice.service.UserServiceImpl [http-nio-8001-exec-8] save user UserEntity(userId=100500, username=modicon)
+2023-02-06 20:13:34,439 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-5] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:13:34,446 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-5] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:13:34,615 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-5] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (169ms)
+2023-02-06 20:13:34,618 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-5] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:13:34.605+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:13:48,425 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:13:48,436 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:13:48,444 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 404 (8ms)
+2023-02-06 20:13:48,445 ERROR io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] [404] during [POST] to [http://ekatalog-service/prices] [EKatalogClient#getItemsWithPrices(UrlDto)]: [{"timestamp":"2023-02-06T13:13:48.443+00:00","status":404,"error":"Not Found","path":"/prices"}]
+2023-02-06 20:15:28,205 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-1] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-512gb
+2023-02-06 20:15:28,207 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-1] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:15:29,313 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-1] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (1106ms)
+2023-02-06 20:15:29,321 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-1] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@1bcc992c
+2023-02-06 20:15:53,508 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-4] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-pro-max-256gb
+2023-02-06 20:15:53,509 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-4] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/prices HTTP/1.1
+2023-02-06 20:15:54,075 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-4] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (564ms)
+2023-02-06 20:15:54,076 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-4] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@28fae3de
+2023-02-06 20:17:46,882 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:22:46,884 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:27:46,885 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:31:11,154 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application USER-SERVICE with eureka with status DOWN
+2023-02-06 20:31:11,155 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1675690271155, current=DOWN, previous=UP]
+2023-02-06 20:31:11,156 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:31:11,163 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:31:11,169 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:31:11,169 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 20:31:11,188 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-06 20:31:11,190 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-06 20:31:11,191 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-02-06 20:31:14,195 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2023-02-06 20:31:14,203 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - deregister  status: 200
+2023-02-06 20:31:14,215 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2023-02-06 20:31:17,426 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-02-06 20:31:17,435 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserServiceApplication using Java 17.0.5 with PID 13865 (/home/saeed/projects/GoodsApp/UserService/user-service/build/classes/java/main started by saeed in /home/saeed/projects/GoodsApp)
+2023-02-06 20:31:17,436 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-06 20:31:18,116 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 20:31:18,245 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123 ms. Found 3 JPA repository interfaces.
+2023-02-06 20:31:18,412 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=8d1c085f-9b68-31cb-b7b6-73e04cfc39ad
+2023-02-06 20:31:18,459 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'io.modicon.userservice.client.EKatalogClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 20:31:18,683 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8001 (http)
+2023-02-06 20:31:18,690 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:31:18,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-02-06 20:31:18,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-06 20:31:18,764 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-02-06 20:31:18,764 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1296 ms
+2023-02-06 20:31:18,895 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 20:31:18,955 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-06 20:31:19,094 WARN org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-06 20:31:19,181 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-02-06 20:31:19,246 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fd4312a
+2023-02-06 20:31:19,248 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-02-06 20:31:19,269 INFO org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-06 20:31:19,508 WARN org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:31:19,509 WARN org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): io.modicon.userservice.model.UserItemId
+2023-02-06 20:31:19,921 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,922 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:31:19,922 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,922 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "item_entity_shops" не существует, пропускается
+2023-02-06 20:31:19,923 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,923 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:31:19,923 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,924 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] отношение "user_item_price_entity" не существует, пропускается
+2023-02-06 20:31:19,925 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,925 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity" не существует, пропускается
+2023-02-06 20:31:19,925 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,926 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "item_entity_shops" не существует, пропускается
+2023-02-06 20:31:19,926 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,926 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "shop_entity" не существует, пропускается
+2023-02-06 20:31:19,927 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,927 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_entity" не существует, пропускается
+2023-02-06 20:31:19,927 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-02-06 20:31:19,927 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] таблица "user_item_price_entity" не существует, пропускается
+2023-02-06 20:31:19,988 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 20:31:19,995 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:31:20,382 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 20:31:20,446 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'ekatalog-service' URL not provided. Will try picking an instance via load-balancing.
+2023-02-06 20:31:21,120 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-02-06 20:31:21,155 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-06 20:31:21,202 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-02-06 20:31:21,227 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-02-06 20:31:21,230 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-02-06 20:31:21,249 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-02-06 20:31:21,249 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-02-06 20:31:21,249 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-02-06 20:31:21,249 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-02-06 20:31:21,249 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-02-06 20:31:21,250 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-02-06 20:31:21,250 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-02-06 20:31:21,517 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-02-06 20:31:21,520 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-02-06 20:31:21,522 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-06 20:31:21,525 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1675690281524 with initial instances count: 3
+2023-02-06 20:31:21,528 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application USER-SERVICE with eureka with status UP
+2023-02-06 20:31:21,528 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1675690281528, current=UP, previous=STARTING]
+2023-02-06 20:31:21,529 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8001"]
+2023-02-06 20:31:21,530 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:31:21,544 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8001 (http) with context path ''
+2023-02-06 20:31:21,545 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8001
+2023-02-06 20:31:21,555 INFO org.springframework.boot.StartupInfoLogger [main] Started UserServiceApplication in 4.433 seconds (process running for 5.068)
+2023-02-06 20:31:21,595 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:31:35,228 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 20:31:35,228 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-02-06 20:31:35,230 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-3] Completed initialization in 1 ms
+2023-02-06 20:32:41,640 INFO io.modicon.userservice.service.UserServiceImpl [http-nio-8001-exec-1] save user UserEntity(userId=908653889, username=modiconme)
+2023-02-06 20:36:21,251 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:41:21,253 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:43:27,881 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-3] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-12-128gb
+2023-02-06 20:43:27,888 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-3] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/api/items/prices HTTP/1.1
+2023-02-06 20:43:28,590 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-3] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (701ms)
+2023-02-06 20:43:28,595 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-3] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@71d1959d
+2023-02-06 20:46:21,254 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:48:26,100 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-3] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-13-pro-max-512gb
+2023-02-06 20:48:26,102 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-3] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/api/items/prices HTTP/1.1
+2023-02-06 20:48:26,149 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-2] go to the ekatalog service https://n-katalog.ru/product/apple-iphone-13-pro-max-512gb
+2023-02-06 20:48:26,151 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-2] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/api/items/prices HTTP/1.1
+2023-02-06 20:48:26,658 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-3] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (556ms)
+2023-02-06 20:48:26,661 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-3] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@6437774e
+2023-02-06 20:48:26,679 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-2] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (528ms)
+2023-02-06 20:48:26,681 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-2] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@10f7c32b
+2023-02-06 20:51:21,254 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-02-06 20:51:56,824 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] go to the ekatalog service https://n-katalog.ru/product/sony-playstation-5-digital-edition
+2023-02-06 20:51:56,825 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] ---> POST http://ekatalog-service/api/items/prices HTTP/1.1
+2023-02-06 20:51:57,328 DEBUG feign.slf4j.Slf4jLogger [http-nio-8001-exec-7] [EKatalogClient#getItemsWithPrices] <--- HTTP/1.1 200 (501ms)
+2023-02-06 20:51:57,330 INFO io.modicon.userservice.service.EKatalogService [http-nio-8001-exec-7] successfully got from ekatalog service io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse@7127495
+2023-02-06 20:53:52,424 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application USER-SERVICE with eureka with status DOWN
+2023-02-06 20:53:52,425 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1675691632425, current=DOWN, previous=UP]
+2023-02-06 20:53:52,425 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001: registering service...
+2023-02-06 20:53:52,435 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - registration status: 204
+2023-02-06 20:53:52,439 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 20:53:52,439 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 20:53:52,459 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-06 20:53:52,463 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-02-06 20:53:52,463 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2023-02-06 20:53:55,466 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2023-02-06 20:53:55,471 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_USER-SERVICE/fedora:user-service:8001 - deregister  status: 200
+2023-02-06 20:53:55,480 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient

@@ -7,12 +7,12 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="GoodsApp.EKatalogService.ekatalog-service-api.main" />
-        <module name="GoodsApp.EKatalogService.ekatalog-service.main" />
-        <module name="GoodsApp.NotificationService.main" />
-        <module name="user-service.GoodsApp.UserService.user-service.main" />
+        <module name="projects.GoodsApp.NotificationService.main" />
+        <module name="ekatalog-service.GoodsApp.EKatalogService.ekatalog-service.main" />
+        <module name="ekatalog-service-api.GoodsApp.EKatalogService.ekatalog-service-api.main" />
+        <module name="GoodsApp.UserService.user-service.main" />
         <module name="GoodsApp.TelegramBot.main" />
-        <module name="user-service-api.GoodsApp.UserService.user-service-api.main" />
+        <module name="GoodsApp.UserService.user-service-api.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
