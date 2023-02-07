@@ -14,5 +14,5 @@ include 'TelegramBot'
 include 'NotificationService'
 include 'DiscoveryService'
 include 'ApiGW'
-include 'ClientModule'
+include 'CoreModule'
 
