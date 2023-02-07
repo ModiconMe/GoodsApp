@@ -1,12 +1,12 @@
 package io.modicon.notificationservice.service;
 
-import io.modicon.ekatalogservice.api.dto.ItemDto;
-import io.modicon.ekatalogservice.api.dto.UrlDto;
-import io.modicon.notificationservice.client.EKatalogFeignClient;
-import io.modicon.notificationservice.client.TelegramServiceClient;
-import io.modicon.notificationservice.client.UserServiceClient;
-import io.modicon.telegrambot.client.NotificationMessage;
-import io.modicon.userservice.api.dto.UserItemPriceDto;
+import io.modicon.client.dto.ItemDto;
+import io.modicon.client.dto.NotificationMessage;
+import io.modicon.client.dto.UrlDto;
+import io.modicon.client.dto.UserItemPriceDto;
+import io.modicon.client.feign.EKatalogServiceClient;
+import io.modicon.client.feign.TelegramServiceClient;
+import io.modicon.client.feign.UserServiceClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class PriceCheckService {
 
-    private final EKatalogFeignClient eKatalogFeignClient;
+    private final EKatalogServiceClient eKatalogFeignClient;
     private final UserServiceClient userServiceClient;
     private final TelegramServiceClient telegramServiceClient;
 

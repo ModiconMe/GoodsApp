@@ -10,7 +10,7 @@ public class SchedulerService {
 
     private final PriceCheckService priceCheckService;
 
-    @Scheduled(fixedDelay = 60 * 60 * 1000)
+    @Scheduled(fixedDelay = 3000)
     public void updatePrices() {
         priceCheckService.checkAndSend();
     }

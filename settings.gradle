@@ -9,17 +9,10 @@ pluginManagement {
 rootProject.name = 'GoodsApp'
 
 include 'EKatalogService'
-include 'EKatalogService:ekatalog-service'
-include 'EKatalogService:ekatalog-service-api'
-findProject(':EKatalogService:ekatalog-service')?.name = 'ekatalog-service'
-findProject(':EKatalogService:ekatalog-service-api')?.name = 'ekatalog-service-api'
 include 'UserService'
-include 'UserService:user-service'
-include 'UserService:user-service-api'
-findProject(':UserService:user-service')?.name = 'user-service'
-findProject(':UserService:user-service-api')?.name = 'user-service-api'
 include 'TelegramBot'
 include 'NotificationService'
 include 'DiscoveryService'
 include 'ApiGW'
+include 'ClientModule'
 

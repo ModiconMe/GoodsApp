@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableFeignClients(basePackages = "io.modicon.telegrambot.client")
+@EnableFeignClients(basePackages = "io.modicon.client.feign")
 @Getter
 public class ApplicationConfig {
 

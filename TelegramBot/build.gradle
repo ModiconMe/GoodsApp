@@ -10,8 +10,7 @@ java {
 }
 
 dependencies {
-    implementation project(':UserService:user-service-api')
-    implementation project(':EKatalogService:ekatalog-service-api')
+    implementation project(':ClientModule')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${springCloudVersion}"

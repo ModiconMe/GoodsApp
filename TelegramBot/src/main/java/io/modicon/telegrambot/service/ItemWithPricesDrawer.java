@@ -1,7 +1,8 @@
 package io.modicon.telegrambot.service;
 
-import io.modicon.ekatalogservice.api.dto.ShopDto;
-import io.modicon.userservice.api.dto.ItemWithPricesDto;
+
+import io.modicon.client.dto.ItemWithPricesDto;
+import io.modicon.client.dto.ShopDto;
 
 import java.util.List;
 

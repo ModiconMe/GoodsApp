@@ -1,7 +1,7 @@
 package io.modicon.telegrambot.controller;
 
+import io.modicon.client.dto.NotificationMessage;
 import io.modicon.telegrambot.bot.Bot;
-import io.modicon.telegrambot.client.NotificationMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

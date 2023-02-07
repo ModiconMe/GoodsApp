@@ -1,10 +1,9 @@
 package io.modicon.telegrambot.service;
 
-import io.modicon.ekatalogservice.api.dto.GetItemAndShopsResponse;
-import io.modicon.ekatalogservice.api.dto.ItemDto;
-import io.modicon.ekatalogservice.api.dto.ShopDto;
-import io.modicon.ekatalogservice.api.dto.UrlDto;
-import io.modicon.telegrambot.client.EKatalogServiceClient;
+import io.modicon.client.dto.GetItemAndShopsResponse;
+import io.modicon.client.dto.ItemDto;
+import io.modicon.client.dto.UrlDto;
+import io.modicon.client.feign.EKatalogServiceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
